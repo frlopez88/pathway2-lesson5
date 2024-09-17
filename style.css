@@ -1,4 +1,4 @@
-input, textarea {
+input, textarea, select {
     display: block;
     width: 50%;
     margin-bottom: 15px;
@@ -8,4 +8,10 @@ form {
     border-style: solid;
     color: black;
     background-color: rgb(215, 203, 235);
+    margin-bottom: 15px;
+}
+
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
 }
